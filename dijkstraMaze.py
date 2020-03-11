@@ -124,7 +124,6 @@ while run:
 
 run = True
 corner = corners[-1]
-count = 0
 while run:
     if corner.x == corner.parent.x:
         for x in range(min(corner.parent.y, corner.y+1), max(corner.parent.y, corner.y+1)):
